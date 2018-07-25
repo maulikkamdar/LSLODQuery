@@ -4,7 +4,7 @@ This repository contains the set of scripts to analyze the LSLOD Cloud -- unders
 **TODO**: There is a substantial lack of coherence between the different scripts here -- will update it later on.
 
 Scripts for the following purposes are present here:
- - Automate querying of the LSLOD cloud, generate schemas, and sample instance characteristics in a data-driven manner.
+ - Automate querying of the LSLOD cloud, generate schemas, and instance characteristics in a data-driven manner.
  - Increase in assertion count with respect to the addition of subsequent sources to querying scheme.
  - Analyze the semantic heterogeneity of the LSLOD Cloud
  - Generate a Roadmap visualization of the LSLOD Cloud (similar to Google Maps view)
