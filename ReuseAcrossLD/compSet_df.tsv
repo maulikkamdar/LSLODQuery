@@ -1,0 +1,521 @@
+index	dsets	type	clcount
+CHEBI	5	establishedOnto	30251
+NCIT	6	establishedOnto	6323
+SNOMEDCT	2	establishedOnto	6271
+PDB-OWL	4	establishedOnto	5086
+PR	2	establishedOnto	3662
+NDFRT	4	establishedOnto	3365
+BMRB-OWL	1	establishedOnto	2957
+EFO	5	establishedOnto	1576
+ATC	1	establishedOnto	1297
+http://jcggdb.jp/rdf/diseases/ggdonto-schema#	1	unpublishedVocab	901
+http://mo-ld.org/mine_vocabulary:	1	unpublishedVocab	513
+http://mo-ld.org/resource/	6	unpublishedVocab	500
+http://nextprot.org/rdf#	1	unpublishedVocab	344
+http://mo-ld.org/mine_type:	1	unpublishedVocab	338
+NCBI TAXON	2	establishedOnto	324
+Uniprot Core Ontology	4	establishedVocab	307
+http://bio2rdf.org/clinicaltrials_vocabulary:	9	unpublishedVocab	201
+BioPAX Level 3 ontology	12	establishedVocab	197
+http://rdf.ebi.ac.uk/terms/chembl#	1	unpublishedVocab	166
+Renewable Energy and Energy Efficiency	1	establishedVocab	161
+http://bio2rdf.org/drugbank_vocabulary:	3	unpublishedVocab	158
+http://bio2rdf.org/kegg_vocabulary:	5	unpublishedVocab	151
+https://www.sbgenomics.com/ontologies/2014/11/tcga#	1	unpublishedVocab	142
+SIO-CHEMINF	57	establishedOnto	136
+http://linkedlifedata.com/resource/semanticnetwork/id/	2	unpublishedVocab	133
+CL	2	establishedOnto	130
+http://purl.uniprot.org/core/	1	unpublishedVocab	127
+UBERON	1	establishedOnto	117
+ORDO	1	establishedOnto	110
+http://bio2rdf.org/obo_vocabulary:	10	unpublishedVocab	103
+http://bio2rdf.org/omim_vocabulary:	6	unpublishedVocab	90
+http://bio2rdf.org/sgd_vocabulary:	5	unpublishedVocab	89
+http://jcggdb.jp/rdf/diseases/paconto-schema#	1	unpublishedVocab	86
+http://bio2rdf.org/pharmgkb_vocabulary:	4	unpublishedVocab	84
+LOINC	2	establishedOnto	80
+http://rdf.ebi.ac.uk/terms/ensembl/	1	unpublishedVocab	75
+http://purl.jp/bio/12/glyco/glycan#	1	unpublishedVocab	72
+The OWL 2 Schema vocabulary	59	establishedVocab	67
+http://bio2rdf.org/affymetrix_vocabulary:	1	unpublishedVocab	67
+http://identifiers.org/biomodels.vocabulary#	1	unpublishedVocab	66
+GO-OBO	11	establishedOnto	66
+http://bio2rdf.org/refseq_vocabulary:	10	unpublishedVocab	65
+http://linkedlifedata.com/resource/drugbank/drug/	1	unpublishedVocab	65
+http://bio2rdf.org/pubmed_vocabulary:	17	unpublishedVocab	61
+The Linked SPARQL Queries Vocabulary (LSQ(V))	1	establishedVocab	61
+http://id.nlm.nih.gov/mesh/vocab#	1	unpublishedVocab	60
+http://bio2rdf.org/wormbase_vocabulary:	3	unpublishedVocab	59
+http://rdf.ebi.ac.uk/resource/ensembl/	1	unpublishedVocab	58
+http://bio2rdf.org/ncbigene_vocabulary:	13	unpublishedVocab	58
+http://bio2rdf.org/mesh_vocabulary:	5	unpublishedVocab	58
+http://vocabularies.wikipathways.org/gpml#	1	unpublishedVocab	56
+https://www.sbgenomics.com/ontologies/2016/5/ccle#	1	unpublishedVocab	55
+PO	2	establishedOnto	51
+http://purl.jp/bio/11/mbgd#	1	unpublishedVocab	49
+IAO	8	establishedOnto	47
+http://purl.jp/bio/101/opentggates/ontology/	1	unpublishedVocab	45
+DCMI Metadata Terms	47	establishedVocab	44
+http://www.glycoinfo.org/glyco/owl/wurcs#	1	unpublishedVocab	43
+http://bio2rdf.org/mgi_vocabulary:	5	unpublishedVocab	42
+http://linkedlifedata.com/resource/entrezgene/	1	unpublishedVocab	41
+UO	4	establishedOnto	40
+http://bio2rdf.org/mi:	11	unpublishedVocab	40
+http://www.orphanet.org/rdfns#	1	unpublishedVocab	39
+CMO	1	establishedOnto	39
+http://purl.bioontology.org/ontology/MESH/	1	unpublishedVocab	37
+http://bio2rdf.org/irefindex_vocabulary:	8	unpublishedVocab	36
+http://www.bioassayontology.org/bao#	2	unpublishedVocab	36
+http://bio2rdf.org/taxonomy_vocabulary:	53	unpublishedVocab	36
+FMA	1	establishedOnto	36
+http://bio2rdf.org/hgnc_vocabulary:	6	unpublishedVocab	36
+http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/DIKB_evidence_ontology_v1.3.owl#	1	unpublishedVocab	34
+Schema.org vocabulary	5	establishedVocab	33
+http://rdf.ebi.ac.uk/terms/atlas/	2	unpublishedVocab	33
+http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/	1	unpublishedVocab	33
+http://linkedlifedata.com/resource/clinicaltrials/study/	1	unpublishedVocab	32
+SO	3	establishedOnto	32
+http://bio2rdf.org/ndc_vocabulary:	3	unpublishedVocab	31
+http://vocabularies.wikipathways.org/wp#	1	unpublishedVocab	30
+Open Annotation Data Model	2	establishedVocab	30
+The P-PLAN Ontology	2	establishedVocab	30
+http://bio2rdf.org/interpro_vocabulary:	3	unpublishedVocab	30
+http://idtype.identifiers.org/	1	unpublishedVocab	30
+http://identifiers.org/	1	unpublishedVocab	30
+http://bio2rdf.org/dbsnp_vocabulary:	4	unpublishedVocab	29
+Simple Knowledge Organization System	23	establishedVocab	29
+Provenance, Authoring and Versioning	14	establishedVocab	28
+Semantically-Interlinked Online Communities	35	establishedVocab	27
+http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/	1	unpublishedVocab	27
+http://bio2rdf.org/ctd_vocabulary:	12	unpublishedVocab	27
+http://bio2rdf.org/linkedspls_vocabulary:	2	unpublishedVocab	27
+Friend of a Friend vocabulary	20	establishedVocab	26
+http://linkedlifedata.com/resource/clinicaltrials/	1	unpublishedVocab	26
+The GoodRelations Ontology for Semantic Web-ba...	3	establishedVocab	25
+W3C PROVenance Interchange	6	establishedVocab	25
+UBPROP	4	establishedOnto	24
+http://ddbj.nig.ac.jp/ontologies/taxonomy/	1	unpublishedVocab	23
+http://linkedlifedata.com/resource/drugbank/molecule/	1	unpublishedVocab	23
+http://linkedlifedata.com/resource/drugbank/	1	unpublishedVocab	23
+http://linkedlifedata.com/resource/chembl/	1	unpublishedVocab	23
+http://metadb.riken.jp/ontology/SSBD/	1	unpublishedVocab	22
+http://bio2rdf.org/genage_vocabulary:	1	unpublishedVocab	21
+SPARQL 1.1 Service Description	14	establishedVocab	20
+http://purl.jp/bio/01/quanto/ontology/sos#	1	unpublishedVocab	20
+http://bio2rdf.org/goa_vocabulary:	10	unpublishedVocab	19
+OBI	4	establishedOnto	19
+http://www.ncbi.nlm.nih.gov/mesh/	1	unpublishedVocab	18
+http://www.glycoepitope.jp/epitopes/glycoepitope.owl#	1	unpublishedVocab	18
+http://omim.org/entry/	1	unpublishedVocab	17
+http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/	2	unpublishedVocab	17
+http://linkedlifedata.com/resource/chembl/target/	1	unpublishedVocab	17
+http://purl.bioontology.org/ontology/ICD10CM/	1	unpublishedVocab	17
+http://purl.jp/bio/01/refexo#	1	unpublishedVocab	17
+Dublin Core Metadata Element Set	17	establishedVocab	17
+The RDF Schema vocabulary	68	establishedVocab	17
+Ontology for Biomedical Investigation	5	establishedVocab	17
+http://purl.jp/bio/01/mccv#	1	unpublishedVocab	17
+RO	5	establishedOnto	16
+http://rdf.ebi.ac.uk/terms/biosd/	1	unpublishedVocab	16
+http://linkedlifedata.com/resource/chembl/compound/	1	unpublishedVocab	16
+MP	1	establishedOnto	16
+http://linkedlifedata.com/resource/pubmed/	1	unpublishedVocab	15
+http://linkedlifedata.com/resource/pdb/molecule/	1	unpublishedVocab	15
+http://biohackathon.org/resource/faldo#	13	unpublishedVocab	15
+http://bio2rdf.org/so:	3	unpublishedVocab	15
+Vocabulary for Attaching Essential Metadata	1	establishedVocab	15
+http://vocab.jst.go.jp/terms/sti#	1	unpublishedVocab	14
+http://purl.org/net/nlprepository/spl-pharmgx-annotation-poc#	1	unpublishedVocab	14
+http://edamontology.org/	2	unpublishedVocab	14
+Data Provider Node ontology	1	establishedVocab	14
+http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/vocab/resource/	1	unpublishedVocab	13
+http://purl.jp/bio/11/orth#	1	unpublishedVocab	13
+The RDF Concepts Vocabulary	56	establishedVocab	13
+http://biomodels.net/biology-qualifiers#	1	unpublishedVocab	12
+http://linkedlifedata.com/resource/pfam/family/	2	unpublishedVocab	12
+EO	1	establishedOnto	12
+http://linkedlifedata.com/resource/chembl/product/	1	unpublishedVocab	12
+The Bibliographic Ontology	4	establishedVocab	12
+BTO	2	establishedOnto	12
+http://linkedlifedata.com/resource/chembl/literatureCitation/	1	unpublishedVocab	11
+Semantic Web Rule Language	1	establishedVocab	10
+http://linkedlifedata.com/resource/homologene/statistics/	1	unpublishedVocab	10
+http://purl.org/net/drug-interaction-knowledge-base/DIKB_evidence_ontology.owl#	1	unpublishedVocab	10
+http://linkedlifedata.com/resource/chembl/activity/	1	unpublishedVocab	10
+http://bio2rdf.org/sider_vocabulary:	1	unpublishedVocab	9
+BFO	2	establishedOnto	9
+Data Catalog Vocabulary	7	establishedVocab	9
+http://purl.jp/bio/01/famsbase/ontology/	1	unpublishedVocab	9
+http://linkedlifedata.com/resource/pdb/structure/	1	unpublishedVocab	8
+PATO	3	establishedOnto	8
+http://linkedlifedata.com/resource/pdb/method/	1	unpublishedVocab	8
+http://www.glytoucan.org/glyco/owl/glytoucan#	1	unpublishedVocab	8
+http://bio2rdf.org/lsr_vocabulary:	1	unpublishedVocab	8
+http://identifiers.org/idot/	2	unpublishedVocab	8
+http://linkedlifedata.com/resource/clinicaltrials/outcome/	1	unpublishedVocab	8
+GO	3	establishedOnto	8
+http://edda.dbmi.pitt.edu/ontologies/StudyDesigns.owl#	1	unpublishedVocab	8
+http://linkedlifedata.com/resource/pdb/	1	unpublishedVocab	8
+http://linkedlifedata.com/resource/homologene/	1	unpublishedVocab	7
+http://linkedlifedata.com/resource/clinicaltrials/result/	1	unpublishedVocab	7
+http://linkedlifedata.com/resource/pfam/protein/	2	unpublishedVocab	7
+http://linkedlifedata.com/resource/sider/drug/	1	unpublishedVocab	7
+http://www.nanopub.org/nschema#	1	unpublishedVocab	7
+http://prismstandard.org/namespaces/basic/2.0/	2	unpublishedVocab	7
+http://jcggdb.jp/rdf/diseases/gmncbi-schema#	1	unpublishedVocab	7
+http://linkedlifedata.com/resource/chembl/assay/	1	unpublishedVocab	7
+http://bio2rdf.org/homologene_vocabulary:	1	unpublishedVocab	7
+http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/	1	unpublishedVocab	6
+http://linkedlifedata.com/resource/assayTargetLink/	1	unpublishedVocab	6
+http://purl.obolibrary.org/obo/uberon/core#	2	unpublishedVocab	6
+http://linkedlifedata.com/resource/sider/	1	unpublishedVocab	6
+http://dbmi-icode-01.dbmi.pitt.edu/dikb/vocab/resource/	1	unpublishedVocab	6
+http://linkedlifedata.com/resource/homologene/group/	1	unpublishedVocab	6
+http://icgc.link/	1	unpublishedVocab	6
+http://linkedlifedata.com/resource/clinicaltrials/responsibleParty/	1	unpublishedVocab	6
+http://linkedlifedata.com/resource/clinicaltrials/measure/	1	unpublishedVocab	6
+http://insdc.org/owl/	1	unpublishedVocab	6
+http://biohackathon.org/resource/	1	unpublishedVocab	6
+nodeID://	1	unpublishedVocab	6
+http://bio2rdf.org/bio2rdf_vocabulary:	26	unpublishedVocab	6
+http://linkedlifedata.com/resource/clinicaltrials/measurement/	1	unpublishedVocab	5
+Description of a Project vocabulary	2	establishedVocab	5
+DIDEO	1	establishedOnto	5
+http://ddbj.nig.ac.jp/ontologies/nucleotide/	1	unpublishedVocab	5
+http://linkedlifedata.com/resource/chembl/compoundRecord/	1	unpublishedVocab	5
+http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#	1	unpublishedVocab	5
+http://www.openlinksw.com/schemas/virtrdf#	4	unpublishedVocab	5
+A user interface ontology	1	establishedVocab	5
+http://linkedlifedata.com/resource/homologene/commentary/	1	unpublishedVocab	5
+http://linkedlifedata.com/resource/clinicaltrials/intervention/	1	unpublishedVocab	5
+http://linkedlifedata.com/resource/drugbank/targetLink/	1	unpublishedVocab	5
+ECO	1	establishedOnto	4
+http://linkedlifedata.com/resource/clinicaltrials/location/	1	unpublishedVocab	4
+http://biomodels.net/model-qualifiers#	1	unpublishedVocab	4
+FRBR-aligned Bibliographic Ontology	2	establishedVocab	4
+http://linkedlifedata.com/resource/clinicaltrials/primaryOutcome/	1	unpublishedVocab	4
+http://vocabularies.bridgedb.org/ops#	2	unpublishedVocab	4
+http://linkedlifedata.com/resource/clinicaltrials/contact/	1	unpublishedVocab	4
+http://metadb.riken.jp/db/rikenbrc_jcm_microbe/	1	unpublishedVocab	4
+http://linkedlifedata.com/resource/sider/sideEffect/	1	unpublishedVocab	4
+SKOS eXtension for Labels	3	establishedVocab	4
+http://linkedlifedata.com/resource/sider/label/	1	unpublishedVocab	4
+http://linkedlifedata.com/resource/drugbank/enzymeLink/	1	unpublishedVocab	4
+CiTO, the Citation Typing Ontology	5	establishedVocab	4
+http://linkedlifedata.com/resource/drugbank/price/	1	unpublishedVocab	4
+http://linkedlifedata.com/resource/drugbank/organism/	1	unpublishedVocab	4
+http://linkedlifedata.com/resource/drugbank/transporterLink/	1	unpublishedVocab	4
+Asset Description Metadata Schema	1	establishedVocab	4
+http://www.w3.org/2001/vcard-rdf/3.0#	3	unpublishedVocab	4
+http://linkedlifedata.com/resource/clinicaltrials/contactPoint/	1	unpublishedVocab	4
+http://linkedlifedata.com/resource/pfam/	2	unpublishedVocab	4
+http://linkedlifedata.com/resource/drugbank/carrierLink/	1	unpublishedVocab	4
+http://ncicb.nci.nih.gov/xml/owl/EVS/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/drugbank/drugInteraction/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/sider/indication/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/pdb/depositionSummary/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/drugbank/dosage/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/pdb/dbReference/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/clinicaltrials/overallOfficial/	1	unpublishedVocab	3
+Vocabulary Of Attribution and Governance	2	establishedVocab	3
+http://linkedlifedata.com/resource/drugbank/taxonomy/	1	unpublishedVocab	3
+http://metadb.riken.jp/db/brc_beta/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/umls/	1	unpublishedVocab	3
+HP	3	establishedOnto	3
+http://linkedlifedata.com/resource/sider/meddraSideEffect/	1	unpublishedVocab	3
+VANN: A vocabulary for annotating vocabulary d...	2	establishedVocab	3
+http://bioportal.bioontology.org/ontologies/umls/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/clinicaltrials/address/	1	unpublishedVocab	3
+http://www4.wiwiss.fu-berlin.de/medicare/resource/medicare/	1	unpublishedVocab	3
+An Ontology for vCards	1	establishedVocab	3
+http://bio2rdf.org/clinicaltrials_vocabulary:clinicaltrials_vocabulary:	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/chembl/formulation/	1	unpublishedVocab	3
+http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#	3	unpublishedVocab	3
+http://www.ebi.ac.uk/cmpo/	1	unpublishedVocab	3
+http://vocab.org/aiiso/schema#	1	unpublishedVocab	3
+http://vocab.jst.go.jp/terms/vlist#	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/chembl/researchStem/	1	unpublishedVocab	3
+http://linkedlifedata.com/resource/drugbank/patent/	1	unpublishedVocab	3
+http://purl.org/net/nlprepository/ohdsi-pubmed-semmed-poc#	2	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/certainAgreement/	1	unpublishedVocab	2
+http://purl.bioontology.org/ontology/RXNORM/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/rxnorm/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/drugbank/citation/	1	unpublishedVocab	2
+http://purl.jp/bio/101/opentggates/Array/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/pfam/dbReference/	2	unpublishedVocab	2
+http://linkedlifedata.com/resource/pfam/clan/	1	unpublishedVocab	2
+Creative Commons Rights Expression Language	1	establishedVocab	2
+http://linkedlifedata.com/resource/chembl/confidenceScore/	1	unpublishedVocab	2
+http://purl.org/obo/owl/CL#	1	unpublishedVocab	2
+CLO	2	establishedOnto	2
+http://linkedlifedata.com/resource/drugbank/externalIdentifier/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/pdb/author/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/drugbank/externalLink/	1	unpublishedVocab	2
+http://bio2rdf.org/apo:	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/drugbank/geneSequence/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/homologene/domain/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/group/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/drugbank/mixture/	1	unpublishedVocab	2
+http://jcggdb.jp/rdf/diseases/gdgdb-schema#	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/drugbank/proteinSequence/	1	unpublishedVocab	2
+MS	1	establishedOnto	2
+http://linkedlifedata.com/resource/drugbank/packager/	1	unpublishedVocab	2
+Representing Content in RDF	1	establishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/baseline/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/chembl/synonym/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/period/	1	unpublishedVocab	2
+http://metadb.riken.jp/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/participants/	1	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/milestone/	1	unpublishedVocab	2
+DCMI Type Vocabulary	51	establishedVocab	2
+TO	1	establishedOnto	2
+http://linkedlifedata.com/resource/clinicaltrials/participantFlow/	1	unpublishedVocab	2
+http://protege.stanford.edu/plugins/owl/protege#	5	unpublishedVocab	2
+http://linkedlifedata.com/resource/clinicaltrials/secondaryOutcome/	1	unpublishedVocab	2
+http://purl.bioontology.org/ontology/MEDDRA/	1	unpublishedVocab	2
+http://bio2rdf.org/broad.tucp_vocabulary:	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/clinicaltrials/agency/	1	unpublishedVocab	1
+http://bio2rdf.org/bgi.ris_vocabulary:	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/clinicaltrials/eligibility/	1	unpublishedVocab	1
+http://bio2rdf.org/cazy_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/ccd_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/ccds_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/bioportal_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/cath_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/biosystems_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/blocks_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/biogrid_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/bind_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/biodbcore_vocabulary:	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/clinicaltrials/investigator/	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/chembl/curationLookup/	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/chembl/targetType/	1	unpublishedVocab	1
+http://bio2rdf.org/broad-lincrna_vocabulary:	1	unpublishedVocab	1
+http://linkedlifedata.com/resource/drugbank/category/	1	unpublishedVocab	1
+http://bio2rdf.org/bindingdb_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/cas_vocabulary:	4	unpublishedVocab	1
+http://bio2rdf.org/hprd_vocabulary:	3	unpublishedVocab	1
+http://linkedlifedata.com/resource/drugbank/property/	1	unpublishedVocab	1
+http://www.bioassayontology.org/	1	unpublishedVocab	1
+HAS ROLE	1	establishedOnto	1
+Gleaning Resource Descriptions from Dialects o...	1	establishedVocab	1
+http://purl.org/net/nlprepository/ohdsi-adr-splicer-poc#	2	unpublishedVocab	1
+Getty Vocabulary Program ontology	1	establishedVocab	1
+http://purl.org/obo/owl/PATO#	1	unpublishedVocab	1
+FORMAT VERSION	3	establishedOnto	1
+ERO	1	establishedOnto	1
+DRON	1	establishedOnto	1
+http://semanticscience.org/resource/SIO:	1	unpublishedVocab	1
+DOLCE+DnS Ultralite	3	establishedVocab	1
+DEFAULT RELATIONSHIP ID PREFIX	2	establishedOnto	1
+http://www.bigdata.com/rdf#/features/KB/	1	unpublishedVocab	1
+http://www.co-ode.org/patterns#	3	unpublishedVocab	1
+INO	1	establishedOnto	1
+http://www.ebi.ac.uk/chebi/searchId.do;?chebiId=CHEBI:	1	unpublishedVocab	1
+http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/	1	unpublishedVocab	1
+DCMI Abstract Model	1	establishedVocab	1
+http://www.ifomis.org/bfo/1.1/snap#	1	unpublishedVocab	1
+http://www.ncbi.nlm.nih.gov/	1	unpublishedVocab	1
+Association Ontology	1	establishedVocab	1
+http://www4.wiwiss.fu-berlin.de/drugbank/vocab/resource/class/	1	unpublishedVocab	1
+Academic Institution Internal Structure Ontology	1	establishedVocab	1
+ALT	3	establishedOnto	1
+ncit:	1	unpublishedVocab	1
+MPIO	1	establishedOnto	1
+http://bio2rdf.org/atc_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/aracyc_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/apo_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/alfred_vocabulary:	33	unpublishedVocab	1
+http://linkedlifedata.com/resource/pdb/citation/	1	unpublishedVocab	1
+http://bio2rdf.org/ahfs_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/3dmet_vocabulary:	1	unpublishedVocab	1
+file:///home/yin2/python-SPL-connector/	1	unpublishedVocab	1
+dc:	1	unpublishedVocab	1
+VIVO Core Ontology	1	establishedVocab	1
+http://linkedlifedata.com/resource/	7	unpublishedVocab	1
+The Weighted Interests Vocabulary	2	establishedVocab	1
+TRANSITIVE	2	establishedOnto	1
+SemWeb Vocab Status ontology	2	establishedVocab	1
+SPIN Inferencing Vocabulary	1	establishedVocab	1
+http://nlp2rdf.lod2.eu/schema/string/	2	unpublishedVocab	1
+http://pdbj.org/schema/sifts.owl#	1	unpublishedVocab	1
+http://protege.stanford.edu/webprotege/	1	unpublishedVocab	1
+Quantities, Units, Dimensions and Types	1	establishedVocab	1
+http://purl.bioontology.org/ontology/NCIT#	1	unpublishedVocab	1
+http://purl.bioontology.org/ontology/OMIM/	1	unpublishedVocab	1
+http://purl.bioontology.org/ontology/UATC//	1	unpublishedVocab	1
+http://purl.bioontology.org/ontology/UATC/B05D&amp;#	1	unpublishedVocab	1
+Open Data Applications Vocabulary	1	establishedVocab	1
+http://bio2rdf.org/ccsd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/cgnc_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/cdd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/modbase_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/go.ref_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ncbi-proteinid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mwsh_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mutdb_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/msd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mpi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mpath_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mp_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/miriam_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/merops_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/mirbase_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/mips_vocabulary:	61	unpublishedVocab	1
+http://bio2rdf.org/mi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/go_vocabulary:	8	unpublishedVocab	1
+http://bio2rdf.org/mgi_vocabulary:Complex/Cluster/	2	unpublishedVocab	1
+http://bio2rdf.org/mgi_vocabulary:BAC/	1	unpublishedVocab	1
+http://bio2rdf.org/goc_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/metacyc_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/ncit_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/glycomedb_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ndfrt_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/nif.subcellular_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/phobius_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/phi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/gene3d_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pfam_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/pdb_vocabulary:	5	unpublishedVocab	1
+http://bio2rdf.org/panther_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pandit_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/orphanet_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ordr_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/omim_vocabulary:genotype/	1	unpublishedVocab	1
+http://bio2rdf.org/genecards_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/obo_vocabulary:systematic_synonym:	8	unpublishedVocab	1
+http://bio2rdf.org/obo_vocabulary:iao:	8	unpublishedVocab	1
+http://bio2rdf.org/obo_vocabulary:hp:	2	unpublishedVocab	1
+http://bio2rdf.org/gi_vocabulary:	8	unpublishedVocab	1
+http://bio2rdf.org/noncode_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/nikkaji_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/goeco_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/medlineplus_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/po_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/intact_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/irefindex.irogid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.irigid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.icrogid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.icrigid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.crogid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.crigid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ipi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/hp_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/inchi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/meddra_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/imgt_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/imga_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/img_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/id_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/icdo_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/icd9_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/icd10_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/humancyc_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/irefindex.rigid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/irefindex.rogid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/hgnc.symbol_vocabulary:	5	unpublishedVocab	1
+http://bio2rdf.org/issn_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/matrixdb_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/luo_lincrna_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/gtp_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/lncrna_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/lipidmaps_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/lipidbank_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/hagr_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ligandbox_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/knapsack_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/hamap_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/kegg.pathway_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/kegg.glycan_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/kegg.drug_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/jcggdb_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/iuphar_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/iuphar.receptor_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/iuphar.ligand_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pirsf_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/priam_vocabulary:	1	unpublishedVocab	1
+http://jcggdb.jp/rdf/diseases/paconto#	1	unpublishedVocab	1
+http://bio2rdf.org/vz_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ensembl_vocabulary:	7	unpublishedVocab	1
+http://bio2rdf.org/eom_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/zfin_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ypo_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/epcc_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/wikipedia_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/wbphenotype_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/wbbt_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/vega_vocabulary:	5	unpublishedVocab	1
+http://bio2rdf.org/umbbd.reaction_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/v_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/utoronto_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/uspto_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/unists_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/uniprot_vocabulary:	10	unpublishedVocab	1
+http://bio2rdf.org/unipathway_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/unigene_vocabulary:	4	unpublishedVocab	1
+http://bio2rdf.org/umls_vocabulary:	4	unpublishedVocab	1
+http://bio2rdf.org/ed_vocabulary:	1	unpublishedVocab	1
+http://data.bioontology.org/metadata/	1	unpublishedVocab	1
+http://data.bioontology.org/metadata/obo/	1	unpublishedVocab	1
+http://bio2rdf.org/eco_vocabulary:	5	unpublishedVocab	1
+http://bio2rdf.org/huge_vocabulary:	33	unpublishedVocab	1
+http://bio2rdf.org/chebi_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/chemspider_vocabulary:	2	unpublishedVocab	1
+http://identifiers.org/uniprot/	1	unpublishedVocab	1
+http://identifiers.org/pdb/	1	unpublishedVocab	1
+http://bio2rdf.org/cog_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/coil_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/come_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/corum_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/cygd_vocabulary:	1	unpublishedVocab	1
+http://gtps.ddbj.nig.ac.jp/core/qualifier/	1	unpublishedVocab	1
+http://bio2rdf.org/dailymed_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/datahub_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/dip_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/do_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/dpd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ec_vocabulary:	6	unpublishedVocab	1
+http://bio2rdf.org/umbbd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/umbbd.pathway_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/prints_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/reactome_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/scop_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/sabiork_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/rnacentral_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/rhea_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/rgd_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/rgap_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/resid_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/genatlas_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/rapdb_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/umbbd.enzyme_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/genbank_vocabulary:	6	unpublishedVocab	1
+http://bio2rdf.org/pubchem.substance_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/pubchem.compound_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/psi.mi_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pseudomonas_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pseudocap_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/prosite_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/prodom_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/gb_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/fma_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/signalp_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/skos:	11	unpublishedVocab	1
+http://bio2rdf.org/ucsc_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ucsc_genes_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/ttd_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/trembl_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/tmhmm_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/tigr_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/tcdb_vocabulary:	2	unpublishedVocab	1
+http://bio2rdf.org/fbbt_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/tair_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/superfamily_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/stitch_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/solgenomics_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/so_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/flybase_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/snomedct_vocabulary:	3	unpublishedVocab	1
+http://bio2rdf.org/smart_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/skos_vocabulary:	1	unpublishedVocab	1
+http://bio2rdf.org/pmrna_vocabulary:	1	unpublishedVocab	1
