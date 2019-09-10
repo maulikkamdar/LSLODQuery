@@ -1,0 +1,17 @@
+Portal	Endpoint	Completed	VersionInfo	Comments
+Reactome	https://www.ebi.ac.uk/rdf/services/reactome/sparql	1	1	
+UniProt	http://sparql.uniprot.org/sparql	1	1	May return HTML response instead of failing altogether, VoID descriptions availbale
+Chembl	https://www.ebi.ac.uk/rdf/services/chembl/sparql	1	1	
+Linked Structured Product Labels	http://dbmi-icode-01.dbmi.pitt.edu/sparql	1	2	No Support for BIND
+Disgenet	http://rdf.disgenet.org/sparql/	1	2	No Support for BIND
+Bio2RDF	http://bio2rdf.org/sparql	1	1	
+LinkedDrugs	http://linkeddata.finki.ukim.mk/sparql	0		ASCII/Unicode errors
+Biomodels	https://www.ebi.ac.uk/rdf/services/biomodels/sparql	1		
+Biosamples	https://www.ebi.ac.uk/rdf/services/biosamples/sparql	1		
+Wikipathways	http://sparql.wikipathways.org/	1	2	
+PathwayCommons	http://rdf.pathwaycommons.org/sparql/	1	1	
+NextProt	https://api.nextprot.org/sparql	1	1	
+ModelOrganism	http://vt.mo-ld.org/sparql	1	1	
+Ensembl	https://www.ebi.ac.uk/rdf/services/ensembl/sparql	1	1	
+ExpressionAtlas	https://www.ebi.ac.uk/rdf/services/atlas/sparql	1	1	Tunes out, requires a limit "key" explicitly in SPARQL Wrapper
+Integrative Biology	 http://integbio.jp/rdf/sparql	1	3	Only supports XML output. No support for Group By.
