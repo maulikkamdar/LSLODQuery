@@ -9,6 +9,6 @@ EBI-RDF 	https://www.ebi.ac.uk/rdf/datasets/ 	https://www.ebi.ac.uk/rdf/services
 WikiPathways	http://data.wikipathways.org/current/rdf/	http://sparql.wikipathways.org/
 Disgenet	http://rdf.disgenet.org/download/	http://rdf.disgenet.org/sparql/
 NextProt	ftp://ftp.nextprot.org/pub/current_release/rdf/ttl/ https://api.nextprot.org/sparql	
-NBDCPortal http://integbio.jp/rdf/download/	http://integbio.jp/rdf/sparql	
-LinkedTCGA  http://tcga.deri.ie/dumps/  		
+NBDCPortal	http://integbio.jp/rdf/download/	http://integbio.jp/rdf/sparql	
+LinkedTCGA	http://tcga.deri.ie/dumps/  		
 LinkedStructuredProductLabels	http://dbmi-icode-01.dbmi.pitt.edu/sparql	
