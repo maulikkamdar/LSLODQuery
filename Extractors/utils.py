@@ -2,14 +2,13 @@
 # -*- coding: utf-8 -*-
 import json
 import re
-import urllib2
+import urllib
 import sys
 import os
 import rdflib
 import hashlib
-import cPickle as pickle
+import pickle
 import numpy as np
-import pandas as pd
 from copy import deepcopy
 
 
@@ -61,7 +60,7 @@ class SPARQLOperator(object):
 
     def get_simple_results(self, ontology, query_type):
         g = self.get_endpoint(ontology, self.config_details['endpoints'
-                              ])
+                                                            ])
         query = self.prefix_header \
             + ''.join(self.queries[ontology][query_type])
         results = g.query(query)
@@ -96,7 +95,7 @@ class FileUtils(object):
         fileset = None
         for (root, dirs, files) in os.walk(folder_path):
             fileset = ([x for x in files
-                       if not exclusion_criteria(x)] if exclusion_criteria else files)
+                        if not exclusion_criteria(x)] if exclusion_criteria else files)
         return fileset
 
     def assign_filesize(self, folder_path, exclusion_criteria=None):
@@ -127,7 +126,7 @@ class DictUtils(object):
         final_name=None,
         verbose=True,
         total_iter=None,
-        ):
+    ):
         '''Iteratively merge dictionaries stored as pickles in the folder_path, adhering to certain exclusion_criteria (excrit=True if you want to exclude those files'''
 
         mfio = MatrixIO()
@@ -146,8 +145,8 @@ class DictUtils(object):
             num_iter += 1
             fu = FileUtils()
             fileset = fu.get_reqd_fileset(folder_path,
-                    exclusion_criteria)
-            print fileset
+                                          exclusion_criteria)
+            print(fileset)
             exists_current = None
             if len(fileset) == 1:
                 found_true_love = True
@@ -158,24 +157,24 @@ class DictUtils(object):
                 else:
                     dict1 = mfio.load_matrix(folder_path + '/' + file)
                     dict2 = mfio.load_matrix(folder_path + '/'
-                            + exists_current)
+                                             + exists_current)
                     merged_dict = self.merge_two_dicts(dict1, dict2)
                     if not filename_generator:
 
                         # this is a last minute resort assuming the user is too lazy to provide a filename_generator function
 
                         filename = hashlib.sha1(exists_current + '-'
-                                + file)
+                                                + file)
                     else:
                         filename = filename_generator(exists_current,
-                                file)
+                                                      file)
                     mfio.save_matrix(merged_dict, folder_path + '/'
-                            + filename)
+                                     + filename)
                     os.remove(folder_path + '/' + exists_current)
                     os.remove(folder_path + '/' + file)
                     if verbose:
-                        print 'Merged file ' + exists_current \
-                            + ' and file ' + file + ' into ' + filename
+                        print('Merged file ' + exists_current
+                              + ' and file ' + file + ' into ' + filename)
                     exists_current = None
 
 
@@ -192,19 +191,6 @@ class FrameUtils(object):
         return dfc.to_dict(orient='index')
 
 
-class HTTPUtils(object):
-
-    def get_json(self, url, headers=None):
-        try:
-            opener = urllib2.build_opener()
-            if headers:
-                opener.addheaders = headers
-            return json.loads(opener.open(url).read())
-        except urllib2.HTTPError:
-            print 'Error Encountered'
-            return None
-
-
 def test_dictutils():
     du = DictUtils()
 
@@ -219,8 +205,8 @@ def test_dictutils():
         name2parts = name2.split('.')[0].split('_')
         new_name = '_'.join(name1parts[0:len(name1parts) - 1]) + '_'
         new_name = new_name + hashlib.sha1(name1parts[len(name1parts)
-                - 1] + '-' + name2parts[len(name2parts)
-                - 1]).hexdigest()
+                                                      - 1] + '-' + name2parts[len(name2parts)
+                                                                              - 1]).hexdigest()
         new_name = new_name + '.dat'
         return new_name
 
@@ -232,14 +218,14 @@ def test_dictutils():
 
 
 def test_httputils():
-	#substitute your API KEY
+        # substitute your API KEY
     hu = HTTPUtils()
     REST_URL = 'http://data.bioontology.org'
     API_KEY = API_KEY_SUB
     headers = [('Authorization', 'apikey token=' + API_KEY)]
 
-
     # = hu.get_json(REST_URL+"/annotator", headers)
+
 
 def merge(x):
     '''merge lists of list in one list'''

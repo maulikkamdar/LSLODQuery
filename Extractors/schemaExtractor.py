@@ -6,26 +6,18 @@ import sys
 import os
 import subprocess
 import time
-import hydra.tpf
-import urllib2
 import urllib
 import rdflib
 import hashlib
 from operator import itemgetter
-from scipy.stats import entropy
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON, POSTDIRECTLY
 import networkx as nx
-from palettable.tableau import GreenOrange_12
-from utils import HTTPUtils, MatrixIO
+from utils import MatrixIO
 import xml.etree.ElementTree as ET
+import argparse
 
-qe = sys.argv[1]
 first_cap_re = re.compile('(.)([A-Z][a-z]+)')
 all_cap_re = re.compile('([a-z0-9])([A-Z])')
-map_name = sys.argv[2]
 
 
 def get_endpoint(endpoint):
@@ -42,7 +34,7 @@ def get_simple_results(endpoint, query):
 
 def get_simple_results_ldf(endpoint, query):
     proc = subprocess.Popen(['/Users/mkamdar/Client.js/bin/ldf-client',
-                            endpoint, query], stdout=subprocess.PIPE)
+                             endpoint, query], stdout=subprocess.PIPE)
     output = proc.stdout.read()
     return output
 
@@ -71,21 +63,9 @@ def get_simple_results_normal(endpoint, query, limres=False):
         # print results
         # results = process_xml_results(results)
 
-        print 'Error encountered for ' + query
+        print('Error encountered for ' + query)
         return None
     return results
-
-
-def plot_dist(dist_k):
-    colors = GreenOrange_12.hex_colors
-    plt.figure()
-    lcount = 0
-    for k in dist_k:
-        plt.plot(dist_k[k].keys(), dist_k[k].values(),
-                 color=colors[lcount], label=k, lw=3)
-        lcount += 1
-    plt.legend(loc='lower right', prop={'size': 12}, ncol=2)
-    plt.show()
 
 
 def parse_camel_case(name):
@@ -111,7 +91,8 @@ def classlist_refined(qe, inc_counts=True):
         q1 = \
             'SELECT ?Concept (COUNT (?x) AS ?cCount) WHERE {?x a ?Concept} GROUP BY ?Concept ORDER BY DESC(?cCount)'
     else:
-        q1 = 'SELECT DISTINCT * WHERE {[] a ?Concept}'  # if you run into a timeout error
+        # if you run into a timeout error
+        q1 = 'SELECT DISTINCT * WHERE {[] a ?Concept}'
     res1 = get_simple_results_normal(qe, q1)
     class_list = {}
     if not res1:
@@ -126,11 +107,11 @@ def classlist_refined(qe, inc_counts=True):
             continue
         if 'openlinksw' in con_uri:  # because virtuosos
             continue
-        print con_uri
+        print(con_uri)
         class_count = (int(result['cCount']['value'
-                       ]) if inc_counts else 0)
+                                            ]) if inc_counts else 0)
         class_list[con_uri] = class_count
-    print len(class_list)
+    print(len(class_list))
     return class_list
 
 
@@ -140,7 +121,7 @@ def process_xml_results(results):
     json_results = {}
     json_results['results'] = {'bindings': []}
     for res in \
-        axml.iter('{http://www.w3.org/2005/sparql-results#}result'):
+            axml.iter('{http://www.w3.org/2005/sparql-results#}result'):
         binding = {}
         for child in res:
             binding[child.attrib['name']] = {'value': child[0].text}
@@ -165,18 +146,18 @@ def property_refined(qe, class_list, version=1):
             "SELECT DISTINCT ?p ?c (COUNT(?x) AS ?count) WHERE {?x a <CONCEPT_URI>; ?p ?o . OPTIONAL {?o a ?c} . FILTER(!(?p = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type')) } GROUP BY ?p ?c ORDER BY DESC(?count)"  # BIND is not supported!
     for k in class_list:
         avoid_namespace = set(['purl.obolibrary.org',
-                              'ncicb.nci.nih.gov',
-                              'purl.bioontology.org'])
+                               'ncicb.nci.nih.gov',
+                               'purl.bioontology.org'])
         kparts = k.split('/')
         if len(kparts) > 2:
-            print (k, kparts[2], class_list[k])
+            print((k, kparts[2], class_list[k]))
             if kparts[2] in avoid_namespace and class_list[k] < 2:
                 continue
         time.sleep(5)
         G.add_node(k, type='class')
         count = 0
         q3 = q3_template.replace('CONCEPT_URI', k)
-        print q3
+        print(q3)
         res3 = get_simple_results_normal(qe, q3, limres=True)
         if not res3:
             under_query.append(k)
@@ -204,15 +185,31 @@ def property_refined(qe, class_list, version=1):
     return (G, under_query)
 
 
-mfio = MatrixIO()
-_classList = classlist_refined(qe)
-mfio.save_matrix(_classList, '_classList_' + map_name + '.dat')
+def init_main(args):
+    qe = args.qe
+    map_name = args.name
+    print(("Executing for", qe, map_name))
+    mfio = MatrixIO()
+    _classList = classlist_refined(qe)
+    mfio.save_matrix(_classList, '_classList_' + map_name + '.dat')
 
-(G, under_query) = property_refined(qe, _classList, version=1)
-nx.write_gpickle(G, map_name + '.gpickle')
-mfio.save_matrix(under_query, 'under_query_' + map_name + '.dat')
+    (G, under_query) = property_refined(qe, _classList, version=1)
+    nx.write_gpickle(G, map_name + '.gpickle')
+    mfio.save_matrix(under_query, 'under_query_' + map_name + '.dat')
 
-for k in _classList:
-    G.node[k]['count'] = _classList[k]
+    for k in _classList:
+        G.node[k]['count'] = _classList[k]
 
-nx.write_gpickle(G, map_name + '.gpickle')
+    nx.write_gpickle(G, map_name + '.gpickle')
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        # don't want to reformat the description message, use file's doc_string
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        description=__doc__
+    )
+    parser.add_argument("--qe", help="Query Endpoint")
+    parser.add_argument("--name", help="Map Name")
+    args = parser.parse_args()
+    init_main(args)
