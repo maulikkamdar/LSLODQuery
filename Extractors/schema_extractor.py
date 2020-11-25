@@ -51,8 +51,7 @@ def get_simple_results_normal(endpoint, query, limres=False):
     sparql = SPARQLWrapper(endpoint)
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-    sparql.setTimeout(3600000)
-
+    # sparql.setTimeout(3600000)
     # sparql.setCredentials("admin", "admin")
     # if limres: sparql.addExtraURITag("limit", "100")
 
@@ -102,7 +101,7 @@ def classlist_refined(qe, inc_counts=True):
         else:
             return None  # to implement revert to other query
     for result in res1['results']['bindings']:
-        con_uri = str(result['Concept']['value'].encode('utf-8'))
+        con_uri = str(result['Concept']['value']) #.encode('utf-8')
         if con_uri[0:4] != 'http':  # because non-standard uris
             continue
         if 'openlinksw' in con_uri:  # because virtuosos

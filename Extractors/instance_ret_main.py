@@ -6,21 +6,13 @@ import sys
 import os
 import subprocess
 import time
-import hydra.tpf
-import urllib2
 import urllib
 import rdflib
-import hashlib
 from operator import itemgetter
-from scipy.stats import entropy
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
 import networkx as nx
-from palettable.tableau import GreenOrange_12
 from copy import deepcopy
-from utils import HTTPUtils, MatrixIO, FileUtils
+from utils import MatrixIO, FileUtils
 import xml.etree.ElementTree as ET
 
 
@@ -29,7 +21,7 @@ def get_simple_results_normal(endpoint, query):
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     sparql.addExtraURITag('limit', '2000')
-    sparql.setCredentials('admin', 'admin')
+    #sparql.setCredentials('admin', 'admin')
     try:
         results = sparql.query().convert()
     except Exception, inst:
