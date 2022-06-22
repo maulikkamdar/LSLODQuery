@@ -2,7 +2,7 @@ decorator==4.4.2
 Hydra==2.5
 isodate==0.6.0
 networkx==2.5
-numpy==1.19.4
+numpy==1.22.0
 pyparsing==2.4.7
 rdflib==5.0.0
 six==1.15.0
